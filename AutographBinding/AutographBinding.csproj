@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0-ios</TargetFramework>
+        <RootNamespace>AutographBinding</RootNamespace>
+        <AssemblyName>AutographBinding</AssemblyName>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <IsBindingProject>true</IsBindingProject>
+        <NoBindingEmbedding>true</NoBindingEmbedding>
+    </PropertyGroup>
+    <ItemGroup>
+        <ObjcBindingApiDefinition Include="ApiDefinitions.cs">
+            <Link>ApiDefinitions.cs</Link>
+        </ObjcBindingApiDefinition>
+        <NativeReference Include="T1Autograph.xcframework" Kind="Framework" />
+    </ItemGroup>
+</Project>
