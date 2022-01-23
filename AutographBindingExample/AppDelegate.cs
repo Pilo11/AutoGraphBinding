@@ -1,4 +1,6 @@
 using AutographBinding;
+using Foundation;
+using UIKit;
 
 namespace AutographBindingExample;
 
