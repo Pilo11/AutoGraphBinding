@@ -1,4 +1,3 @@
-using AutographBinding;
 using AutographTestLib;
 using Foundation;
 using UIKit;

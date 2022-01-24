@@ -8,6 +8,7 @@
         <NoBindingEmbedding>true</NoBindingEmbedding>
     </PropertyGroup>
     <ItemGroup>
+        <Compile Remove="ApiDefinitions.cs" />
         <ObjcBindingApiDefinition Include="ApiDefinitions.cs">
             <Link>ApiDefinitions.cs</Link>
         </ObjcBindingApiDefinition>
