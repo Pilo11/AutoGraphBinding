@@ -10,6 +10,6 @@
       <CodesignKey>iPhone Developer</CodesignKey>
     </PropertyGroup>
     <ItemGroup>
-      <ProjectReference Include="..\AutographBinding\AutographBinding.csproj" />
+      <ProjectReference Include="..\AutographTestLib\AutographTestLib.csproj" />
     </ItemGroup>
 </Project>

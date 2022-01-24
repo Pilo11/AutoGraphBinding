@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutographBinding", "Autogra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutographBindingExample", "AutographBindingExample\AutographBindingExample.csproj", "{51FD5923-C7AF-4E67-AD49-58679EE48706}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutographTestLib", "AutographTestLib\AutographTestLib.csproj", "{CA32E9FD-251C-459E-A827-30CA1ED2C626}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{51FD5923-C7AF-4E67-AD49-58679EE48706}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51FD5923-C7AF-4E67-AD49-58679EE48706}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51FD5923-C7AF-4E67-AD49-58679EE48706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA32E9FD-251C-459E-A827-30CA1ED2C626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA32E9FD-251C-459E-A827-30CA1ED2C626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA32E9FD-251C-459E-A827-30CA1ED2C626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA32E9FD-251C-459E-A827-30CA1ED2C626}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

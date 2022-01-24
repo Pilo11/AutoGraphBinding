@@ -1,4 +1,5 @@
 using AutographBinding;
+using AutographTestLib;
 using Foundation;
 using UIKit;
 
@@ -16,9 +17,8 @@ public class AppDelegate : UIApplicationDelegate
 
         // create a UIViewController with a single UILabel
         var vc = new UIViewController();
-        AutographPad aPad = new(Window!.Frame, UIColor.White, "test");
-        aPad.AutographView.AutoresizingMask = UIViewAutoresizing.FlexibleDimensions;
-        vc.View!.AddSubview(aPad.AutographView);
+        
+        vc.View!.AddSubview(new SignatureView(Window!.Frame));
         
         Window.RootViewController = vc;
 
