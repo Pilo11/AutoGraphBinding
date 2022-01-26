@@ -5,6 +5,8 @@
         <ImplicitUsings>true</ImplicitUsings>
     </PropertyGroup>
     <ItemGroup>
-      <ProjectReference Include="..\AutographBinding\AutographBinding.csproj" />
+      <Reference Include="AutographBinding, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>component\AutographBinding.dll</HintPath>
+      </Reference>
     </ItemGroup>
 </Project>
